@@ -14,15 +14,15 @@ Given a finitely presented 2-parameter interval module, the code provides the fo
 The input consists of two vectors of pairs of doubles. It can be defined by hand or can be given as a text file. In the latter case, the file should start with a line "Generators", followed by the minimal elements of the interval, line by line. Then a line "Relations" is expected, followed by the minimal values in which the interval is not present any more, again line by line. Generators and relations do not have to be ordered in the input. Double values are allowed. An example:
 ```
 Generators
-1 9
 3 7.5
 6.5 3
+1 9
 7.5 2.5
 12 1.5
 Relations
+11 4.5
 4 10.5
 10.5 5
-11 4.5
 ```
 For more examples, see the folder "example_data".
 
