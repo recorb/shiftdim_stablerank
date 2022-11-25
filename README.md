@@ -40,7 +40,7 @@ The code requires standard C++ support but has no other dependencies.
 
 While the shift-dimension is in general not additive, we look forward to conducting experiments with real-world data summand-wise: both in the cases that a persistence module is interval decomposable, and if there is an approximation by (signed) direct sums of interval modules.
 
-The implementation of stable rank is relatively naive and could be speeded up in the future.
+The implementation is not optimal in its running time and hence could be speeded up in the future; in particular for stable rank.
 
 Feedback for the code is welcome and can be sent to maths (at) rene (minus) corbet (dot) de.
 
