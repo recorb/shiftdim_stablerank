@@ -11,7 +11,7 @@ Given a finitely presented 2-parameter interval module, the code provides the fo
 
 # Input format
 
-The input consists of two vectors of pairs of doubles. It can be defined by hand or can be given as a text file. In the latter case, the file should start with a line "Generators", followed by the minimal elements of the interval. Then a line "Relations" is expected, followed by the minimal values in which the interval is not present any more. For some examples, see the folder "example_data".
+The input consists of two vectors of pairs of doubles. It can be defined by hand or can be given as a text file. In the latter case, the file should start with a line "Generators", followed by the minimal elements of the interval, line by line. Then a line "Relations" is expected, followed by the minimal values in which the interval is not present any more, again line by line. Double values are allowed. For some examples, see the folder "example_data".
 
 # Usage
 
